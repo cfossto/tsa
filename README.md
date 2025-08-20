@@ -37,7 +37,7 @@ will see tests with getting the ACL from Tailscale API (probably via Oauth).
 ## Structure
 Commands will be structured as follows:
 
-tsacl <group> <command> <subcommand>
+tsacl `<group>` `<command>` `<subcommand>`
 
 Flags and options will follow naturally.
 Help sections will be added for each command with natural explanations of what is happening.
