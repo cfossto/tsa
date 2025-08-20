@@ -14,7 +14,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "tsa",
+	Use:   "tsacl",
 	Short: "Access Control CLI for Tailscale",
 	Long: `TSA (Tailscale Access Control CLI) is a command-line interface for managing access control`,
 	// Uncomment the following line if your bare application
