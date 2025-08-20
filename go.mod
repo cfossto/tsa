@@ -1,4 +1,4 @@
-module github.com/cfossto/tsa
+module github.com/cfossto/tsacl
 
 go 1.25.0
 
