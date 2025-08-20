@@ -60,3 +60,25 @@ go build
 ````
 
 The app is now installed and ready to be configured when you start the program.
+
+# Disclaimer
+This software is used at your own peril. While I am keen on keeping security tight
+and keep the configurations as local to you as possible, I am in no way taking responsibility
+for how this app affects your local systems or how you handle credentials.
+
+Using this software, you acknowledge that:
+- You are responsible for your own system and how you use this app.
+- Your credentials are your responsibility. I do not take responsibility if you leak your creds
+- You are responsible for double checking that your system can handle this application
+- You are responsible for the machines and the Tailscale network you have.
+- You are responsible for the changes you do to your Tailscale network.
+- You are responsible for any changes you make at all with this software.
+
+By using this software, you do acknowledge that it is an open source application,
+which cannot be resold or be used for malicious intent.
+
+By using this software, you accept the software as is (or modify it for your own uses)
+and will not seek compensation for damages done to the system(s) affected by this software.
+
+Again, while this application will focus on stability, security and reliability
+only you will be able to confirm that and take full resposibility for how you use this application.

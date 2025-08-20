@@ -20,18 +20,6 @@ You can use this command to manage settings such as API keys, server addresses, 
 	},
 }
 
-var addCredentialCmd = &cobra.Command{
-	Use:   "add-credential",
-	Short: "Add a new credential to the TSA configuration",
-	Long: `The add-credential command allows you to add a new credential to the TSA configuration.
-When you invoke this command, you will be prompted to enter the details of the credential you wish to add.`,
-
-	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("add-credential called")
-		// Here you would implement the logic to add a credential.
-		// This could involve prompting the user for input or reading from a file.
-	},
-}
 
 func init() {
 	rootCmd.AddCommand(configCmd)
